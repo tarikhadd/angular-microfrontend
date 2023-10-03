@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Felge",
+        "price": 300,
+        "description": "5x108 17'",
+        "image": "https://www.njuskalo.hr/image-w920x690/alu-felge/alu-felge-17-rupe-5x100-4-kom-slika-167826175.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Felge",
+        "price": 500,
+        "description": "5x108 18'",
+        "image": "https://www.renault-klub.hr/forum/uploads/monthly_2018_01/alu-felge-16-rupe-5x114.3-4-kom-slika-92787340.jpg.45cb656ee33967eed842ef0cd21fe588.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Felge",
+        "price": 600,
+        "description": "5x108 17'",
+        "image": "https://dis-a.com/wp-content/uploads/2022/09/alu-feluge-banja-luka.webp"
+    },
+    {
+        "id": 4,
+        "name": "Felge",
+        "price": 800,
+        "description": "5x120 19'",
+        "image": "https://www.krajina-auto.com/felge/2478321122651_819298331577749_5441498184145027020_o.png"
+    },
+    {
+        "id": 5,
+        "name": "Felge",
+        "price": 900,
+        "description": "5x120 19'",
+        "image": "https://www.njuskalo.hr/image-w920x690/alu-felge/alu-felge-18-5x120-bmw-m4-f10-f11-f30-f31-f32-f34-e90-e91-e92-e46-x3-slika-128013111.jpg"
+    }
+]

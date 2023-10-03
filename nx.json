@@ -11,9 +11,10 @@
           "build",
           "lint",
           "test",
-          "e2e"
+          "e2e",
+          "build-storybook"
         ],
-        "accessToken": "NWZhOGFlYzgtNDk4ZS00MTRlLTk1YzEtZDRmMjUyNzMwNzEzfHJlYWQtd3JpdGU="
+        "accessToken": "NmFiNzA3NjgtMzMxNC00ZTE3LWFkZWQtMTA2OTBhMTAyOGNhfHJlYWQtd3JpdGU="
       }
     }
   },
@@ -44,6 +45,14 @@
         "{workspaceRoot}/.eslintignore",
         "{workspaceRoot}/eslint.config.js"
       ]
+    },
+    "build-storybook": {
+      "inputs": [
+        "default",
+        "^production",
+        "{projectRoot}/.storybook/**/*",
+        "{projectRoot}/tsconfig.storybook.json"
+      ]
     }
   },
   "namedInputs": {
@@ -59,7 +68,10 @@
       "!{projectRoot}/src/test-setup.[jt]s",
       "!{projectRoot}/test-setup.[jt]s",
       "!{projectRoot}/.eslintrc.json",
-      "!{projectRoot}/eslint.config.js"
+      "!{projectRoot}/eslint.config.js",
+      "!{projectRoot}/**/*.stories.@(js|jsx|ts|tsx|mdx)",
+      "!{projectRoot}/.storybook/**/*",
+      "!{projectRoot}/tsconfig.storybook.json"
     ],
     "sharedGlobals": []
   },

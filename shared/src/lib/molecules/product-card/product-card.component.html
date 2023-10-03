@@ -1,0 +1,11 @@
+<app-card [padding]="false" (cardClick)="onClick()">
+    <div class="card-row row">
+        <div class="col-12 p-0 img-col">
+            <img [src]="imgSrc" alt="">
+        </div>
+        <div class="col-12" style="padding: 10px 20px;">
+            <p>{{description}}</p>
+            <p style="margin: 0;">Price: {{price}} KM</p>
+        </div>
+    </div>
+</app-card>

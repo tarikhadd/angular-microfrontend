@@ -1,0 +1,9 @@
+<div class="card"
+[class.padding]="padding"
+[class.borderRadius]="borderRadius"
+[class.shadow]="shadow"
+[class.border]="!shadow"
+[class.clickable]="clickable"
+(click)="onClick()">
+    <ng-content></ng-content>
+</div>

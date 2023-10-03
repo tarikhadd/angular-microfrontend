@@ -1,0 +1,53 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Angular NX MF</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['']" [routerLinkActive]="['']">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['products']" [routerLinkActive]="['products']" >Products</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['playground']" [routerLinkActive]="['playground']" >Playground</a>
+          </li>
+
+        </ul>
+        <span class="navbar-text d-flex align-items-center">
+          
+          <a 
+          class="me-4"
+          target="_blank" 
+          href="https://github.com/angular-architects/module-federation-plugin/blob/main/libs/mf/tutorial/tutorial.md">
+            <img 
+            style="width: 30px; display: flex;align-items: center;" 
+            src="../../assets/webpack-icon.webp" alt="">
+          </a>
+          
+          <a
+            style="font-size: 25px;text-decoration: none;font-style: italic; display: flex; align-items: baseline;"
+            target="_blank" href="https://nx.dev/concepts/more-concepts/micro-frontend-architecture">
+            NX
+            <p style="font-size: 15px;margin: 0;">docs</p>
+          </a>
+          
+            <a 
+            class="ms-4"
+            target="_blank" 
+            href="https://nx.dev/concepts/more-concepts/micro-frontend-architecture">
+              <img 
+              style="width: 30px; display: flex;align-items: center;" 
+              src="../../assets/angular-icon.svg" alt="">
+            </a>
+
+        </span>
+      </div>
+    </div>
+  </nav>

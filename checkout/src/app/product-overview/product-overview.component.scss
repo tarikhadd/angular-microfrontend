@@ -1,0 +1,23 @@
+.image-col {
+    overflow: hidden;
+    // transition: 0.2s;
+
+    // &:hover {
+    //     transform: scale(1.6);
+    //     overflow: auto;
+    //     transition: 0.2s;
+    //     cursor: pointer;
+    //     position: absolute;
+    //     left: 10%;
+    // }
+
+    .image-container {
+    }
+
+    img {
+        min-height: 500px;
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+    }
+}
